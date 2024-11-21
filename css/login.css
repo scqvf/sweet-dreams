@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+    background-image: url("../images/back.svg");
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(248, 179, 184, 0.8);
+}
+
+header a {
+    color: #F8B3B8;
+    background: #654633;
+    border-radius: 25px;
+    padding: 2vh 2vw;
+    font-size: 26px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header a:hover {
+    transform: scale(1.2);
+}
+
+p {
+    color: #654633;
+}
+
+.main {
+    width: 25%;
+    height: 50%;
+    margin: 10% auto 0 auto;
+    border-top: 5px solid #E34A35;
+    border-bottom: #E6EFF7;
+    border-right: #E6EFF7;
+    border-left: #E6EFF7;
+    background: rgba(248, 179, 184, 0.7)
+}
+
+.avatar {
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    top: 22%;
+}
+
+.photo {
+    width: 100%;
+}
+
+.text {
+    margin: 0 60% 0 0;
+    padding: 5%;
+}
+
+.text3 {
+    font-size: 1.25vw;
+    text-decoration: none;
+    color: #FEF4F0;
+}
+
+.vod1 {
+    font-size: 1.146vw;
+    background: #F7DDCE;
+    width: 80%;
+    height: 10%;
+    margin-bottom: 5%;
+    margin-top: 20%;
+    border: 0;
+    border-radius: 15px;
+    color: #654633;
+}
+
+.vod1::placeholder {
+    color: #654633;
+}
+
+.vod2 {
+    font-size: 1.146vw;
+    background: #F7DDCE;
+    width: 80%;
+    height: 10%;
+    border: 0;
+    border-radius: 15px;
+    color: #654633;
+}
+
+.vod2::placeholder {
+    color: #654633;
+}
+
+.knopka {
+    font-size: 1.25vw;
+    cursor: pointer;
+    width: 40%;
+    height: 15%;
+    background-color: #E34A35;
+    border:2px solid #E34A35;
+    color: #FEF4F0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.knopka:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer a {
+    width: 10%;
+}
+
+.footer img {
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    header a {
+        font-size: 18px;
+        padding: 1vh 1.5vw;
+    }
+
+    .main {
+        width: 60%;
+        height: auto;
+    }
+
+    .avatar {
+        width: 20%;
+        left: 40%;
+        top: 15%;
+    }
+
+    .vod1, .vod2 {
+        height: 5%;
+        font-size: 4vw;
+    }
+
+    .knopka {
+        height: 8%;
+        font-size: 4vw;
+    }
+
+    .text3 {
+        font-size: 3.5vw;
+    }
+
+    .footer a {
+        width: 15%;
+    }
+}
